@@ -1,0 +1,35 @@
+.sideMenu {
+  position: fixed;
+  top: 54px;
+  right: 0;
+  width: 250px;
+  height: 100%;
+  background-color: #333;
+  color: green;
+  transform: translateX(100%);
+  transition: transform 0.3s ease-in-out;
+}
+
+.sideMenu.open {
+  transform: translateX(0);
+}
+
+.sideMenu.closed {
+  transform: translateX(100%);
+}
+
+.sideMenu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sideMenu li {
+  padding: 12px;
+}
+
+.sideMenu a {
+  color: white;
+  text-decoration: none;
+  display: block;
+}

@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  justify-content: center;
+  padding: 12px;
+  background-color: black;
+  height: 30px;
+  color: white;
+}
+
+.menuLink {
+  line-height: 30px;
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}

@@ -1,0 +1,29 @@
+:root {
+  --burger-color: white;
+  --light-grey: rgb(219, 216, 216);
+}
+
+.burgerContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 40px;
+  height: 25px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.burger {
+  display: block;
+  width: 100%;
+  height: 3px;
+  background-color: var(--burger-color);
+  border-radius: 2px;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.burgerContainer:hover {
+  --burger-color: var(--light-grey);
+}
