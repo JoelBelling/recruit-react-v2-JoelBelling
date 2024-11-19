@@ -22,9 +22,8 @@ export const HomePage = () => {
 
       <p>
         <strong>3 - Registration Page:</strong> Added a registration page using
-        Formik and Yup validation. I also added some accesibility tags to help
-        meet requirements. I made this mobile first and responsive down to
-        280px.
+        Formik and Yup validation. I made this mobile first and responsive down
+        to 280px.
       </p>
 
       <p>
@@ -36,20 +35,19 @@ export const HomePage = () => {
 
       <p>
         <strong>5 - Unit Tests:</strong> I added unit tests for a lot of the new
-        components added, these could be fleshed out further to get bettter code
+        components, these could be fleshed out further to get bettter code
         coverage.
+      </p>
+
+      <p>
+        <strong>6 - Accessibility:</strong> I have added aria tags throughout
+        development where appropriate to help aid in meeting accessibility
+        requirements.
       </p>
 
       <p>
         <strong>Packages Added:</strong> formik, yup, react-dom,
         react-router-dom, react-responsive and @testing-library/user-event
-      </p>
-
-      <p>
-        <strong>PS:</strong> There more that could be done here to improve the
-        reusability of CSS colours, breakpoints etc. Making then globally
-        reusable. And the simple ui design I used would much better if designed
-        by a ui/ux professional designer.
       </p>
     </main>
   );
